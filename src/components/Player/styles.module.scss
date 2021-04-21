@@ -1,113 +1,90 @@
 .playerContainer {
-  // Box Model
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3rem 4rem;
-  height: 100vh;
-  width: 26.5rem;
+    padding: 3rem 4rem;
+    width: 26.5rem;
+    height: 100vh;
 
-  // Visual
-  background: var(--purple-500);
-  color: var(--white);
+    background: var(--purple-500);
+    color: var(--white);
 
-  header {
-    // Box Model
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 1rem;
-  }
+    justify-content: space-between;
 
-  strong {
-    font-family: Lexend, sans-serif;
-    font-weight: 600;
-  }
-
-  footer {
-    align-self: stretch;
-
-    &.empty {
-      opacity: 0.5;
+    header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
-  }
+
+    strong {
+        font-family: Lexend, sans-serif;
+        font-weight: 600;
+    }
+    footer {
+        align-self: stretch;
+
+        &.empty {
+            opacity: 0.5;
+        }
+    }
 }
 
 .emptyPlayer {
-  // Box Model
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  width: 100%;
-  height: 23rem;
-  padding: 4rem;
-  
-  // Visual
-  border: 1.5px dashed var(--purple-300);
-  border-radius: 1.5rem;
-  background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, transparent 100%);
+    width: 100%;
+    height: 20rem;
+    border: 1.5px dashed var(--purple-300);
+    border-radius: 1.5rem;
+    background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    
+    padding: 4rem;
+    text-align: center;
 
-  // Tipography
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .progress {
-  // Box Model
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
 
-  // Tipography
-  font-size: 0.875rem;
-
-  span {
-    // Box Model
-    display: inline-block;
-    width: 4rem;
-
-    // Tipography
-    text-align: center;
-  }
-
-  .slider {
-    flex: 1;
-
-    .emptySlider {
-      // Box Model
-      width: 100%;
-      height: 4px;
-  
-      // Visual
-      background: var(--purple-300);
-      border-radius: 2px;
+    span {
+        display: inline-block;
+        width: 4rem;
+        text-align: center;
     }
-  }
+    .slider {
+        flex: 1;
+
+        .emptySlider {
+            width: 100%;
+            height: 4px;
+            background: var(--purple-300);
+            border-radius: 2px;
+        }
+    }
 }
 
 .buttons {
-  // Box Model
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2.5rem;
-  gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 1.5rem;
 
-  button {
-    // Visual
-    background: transparent;
-    border: 0;
+    button {
+        background: transparent;
+        border: 0;
+        font-size: 0;
 
-    // Tipography
-    font-size: 0; // Isso aqui centralizará a imagem dentro do button
-
-    &.playButton {
-      // Box Model
-      width: 4rem;
-      height: 4rem;
-
-      // Visual
-      border-radius: 1rem;
-      background: var(--purple-400);
+        &.playButton {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 1rem;
+            background: var(--purple-400);
+        }
     }
-  }
 }
