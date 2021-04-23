@@ -19,30 +19,36 @@
     --purple-400: #9164FA; 
     --purple-500: #8257E5;
     --purple-800: #6F48C9;
+}
+@media (max-width: 1366px) {
+    html {
+      font-size: 80%;
+    }
   }
 
 @media (max-width: 1080px) {
     html {
-        font-size: 93.75%;
+        font-size: 93.75%; // 15 px
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720) {
     html {
-        font-size: 87.5%;
+        font-size: 87.5%; // 14 px
     }
 }
 
 body {
-    background: var(--gray-50);
+    background-color: var(--gray-50);
 }
+
 
 body, input, textarea, button {
     font: 500 1rem Inter, sans-serif;
     color: var(--gray-500);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h5 {
     font-weight: 600;
     font-family: Lexend, sans-serif;
     color: var(--gray-800);
