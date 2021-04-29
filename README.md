@@ -1,3 +1,36 @@
+
+## Podcastr
+
+[![Author](https://img.shields.io/badge/author-julysmartins-8257E5?style=flat-square)](https://github.com/julysNICK)
+[![Languages](https://img.shields.io/github/languages/count/julysmartins/podcastr?color=%238257E5&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/julysmartins/podcastr?color=8257E5&style=flat-square)](https://github.com/julysNICK)
+
+
+<h4 align="center">
+  Podcastr is a platform built for podcast broadcasting.
+</h4>
+
+![Podcastr preview](Img/Preview.png)
+
+## Tecnologies
+
+<div align="center">
+  <br />
+  <img src=".github/tech-logos.png" alt="Technologies used">
+</div>
+
+This project was developed using cutting edge front-end technologies.
+
+
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
